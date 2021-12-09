@@ -1,3 +1,10 @@
+# Reproduction for Angular Storybook 
+1. Add a component that requires a subscription
+2. The subscriptions shall be unsubscribed ngOnDestroy
+3. Navigate to story for component
+4. Navigate away, get error this.subscription.unsubscribe is not a function
+
+
 # Angular12
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
